@@ -1,6 +1,10 @@
 import React from "react";
 import proyectos from "../utils/proyectos.json";
 
+const getImageUrl = (imageName) => {
+  return new URL(`../assets/images/${imageName}`, import.meta.url).href;
+};
+
 export const TarjetaProyecto = ({cantidad = proyectos.length}) => {
   return (
     <>
@@ -10,7 +14,7 @@ export const TarjetaProyecto = ({cantidad = proyectos.length}) => {
             <div className="card h-100">
               <div className="text-center">
                 <img
-                  src={proyecto.ImagenURL}
+                  src={getImageUrl(proyecto.ImagenURL)}
                   className="card-img-top fotoproyecto"
                   alt="Imagen de proyecto"
                 />

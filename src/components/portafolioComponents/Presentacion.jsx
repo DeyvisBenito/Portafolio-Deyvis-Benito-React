@@ -1,4 +1,5 @@
 import React from "react";
+import FotoDeyvisPerfil from '../../assets/images/fotoDeyvisPerfil.jpg';
 
 export const Presentacion = () => {
   return (
@@ -16,7 +17,7 @@ export const Presentacion = () => {
         </a>
       </h5>
 
-      <img id="foto" src='/images/fotoDeyvisPerfil.jpg' alt="Foto Deyvis Benito" />
+      <img id="foto" src={FotoDeyvisPerfil} alt="Foto Deyvis Benito" />
     </div>
   );
 };

@@ -2,31 +2,31 @@
     {
         "Nombre": "Menu Gratis",
         "Descripcion": "Pagina que permite el registro de muchos restaurantes y que cada uno de ellos pueda crear su propio menu. Realizado con ASP.Net Entity Framework y SQL Server",
-        "ImagenURL": "/images/MenusRestaurante.png",
+        "ImagenURL": "MenusRestaurante.png",
         "UrlGithub": "https://github.com/DeyvisBenito/MenuGratis"
     },
     {
         "Nombre": "Manejo de Presupuesto",
         "Descripcion": "Aplicacion que ayuda a llevar el control de los ingresos y gastos de las diferentes cuentas. Realizado con ASP.Net Core y SQL Server",
-        "ImagenURL": "/images/ManejoPresupuesto.png",
+        "ImagenURL": "ManejoPresupuesto.png",
         "UrlGithub": "https://github.com/DeyvisBenito/Manejo-de-Cuentas"
     },
     {
         "Nombre": "Tienda Online API Rest",
         "Descripcion": "API Rest para el comunicado de datos de una tienda online la cual interactua con SQL Server por medio del ORM Sequelize. Realizado con NodeJS y Express",
-        "ImagenURL": "/images/API TiendaOnline.png",
+        "ImagenURL": "API TiendaOnline.png",
         "UrlGithub": "https://github.com/DeyvisBenito/Tienda-Online-REST-API-NodeJS-Express"
     },
     {
         "Nombre": "Buscador de Peliculas con React",
         "Descripcion": "Aplicacion que permite buscar peliculas creada con React que consume una API publica para buscar la descripcion de distintas peliculas. Realizado con React",
-        "ImagenURL": "/images/buscadorPeliculasReact.png",
+        "ImagenURL": "buscadorPeliculasReact.png",
         "UrlGithub": "https://github.com/DeyvisBenito/Buscador-Peliculas-React"
     },
     {
         "Nombre": "Validador de Vacunas COVID-19",
         "Descripcion": "Aplicacion que permite validar los datos de las vacunas contra el COVID-19, agregar nuevos datos y eliminar o actualizar. Realizado con Java para escritorio",
-        "ImagenURL": "/images/ValidadorVacunasCovid19.png",
+        "ImagenURL": "ValidadorVacunasCovid19.png",
         "UrlGithub": "https://github.com/DeyvisBenito/Validador-de-vacunas"
     }
 ]
